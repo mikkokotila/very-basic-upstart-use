@@ -1,4 +1,10 @@
-# very-basic-upstart-use
+# Very basic Ubuntu Upstart use (great for total beginners)
+
+TL;DR
+
+It's much easier to do very powerful things with upstart than you think. 
+
+### How to get start with your first Upstart job
 
 IMPORTANT: 
 
@@ -39,8 +45,3 @@ ps ax | grep scriptname | grep -v grep
 ##### killing the processes related with the service
 
 kill `ps ax | grep scriptname | grep -v grep | cut -d ' ' -f2 | tr '\n' ' '`
-
-
-
-
-
